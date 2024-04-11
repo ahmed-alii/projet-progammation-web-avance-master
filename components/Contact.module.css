@@ -1,0 +1,19 @@
+/* Définition des styles pour le composant Contact */
+/* Styles pour l'identifiant du formulaire */
+.forumId {
+    height: 7rem; /* Définit la hauteur des conteneurs des champs du formulaire (nom et email) pour assurer une uniformité visuelle */
+}
+
+/* Styles pour le message du formulaire */
+.forumMessage {
+    height: 14rem; /* Définit une hauteur plus grande pour le conteneur du champ de texte du message, permettant d'accueillir un texte plus long */
+}
+
+/* Styles pour les appareils de petite taille */
+@media (max-width: 374px) {
+    /* Ajustement des styles pour la page de contact sur des écrans très étroits */
+    .pageContact {
+        min-width: 24rem; /* Assure une largeur minimale pour le contenu, évitant ainsi qu'il ne devienne trop compact */
+        height: 100rem;
+    }
+}

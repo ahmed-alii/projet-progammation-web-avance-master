@@ -1,0 +1,18 @@
+/* Style pour éléments non trouvés */
+.notFound {
+    font-size: xx-large; /* Définit la taille de la police pour les éléments avec la classe .notFound */
+}
+
+@media (max-width: 374px) {
+    /* Ajustement des styles pour la page de contact sur des écrans très étroits */
+    .principal{
+        min-width: 35rem;
+    }
+}
+
+/* Style pour la classe .bob, souvent utilisée pour les conteneurs principaux */
+.bob {
+    padding-left: 0; /* Enlève le padding gauche pour aligner le contenu avec les bords */
+    padding-right: 0; /* Enlève le padding droit pour aligner le contenu avec les bords */
+    padding-bottom: 0; /* Enlève le padding bas pour éviter un espace inutile en bas de l'élément */
+}

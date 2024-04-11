@@ -1,0 +1,44 @@
+.imgDiv{
+  height: 40rem;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+
+/* Styles pour les images des événements */
+.imgEv {
+  margin-left: auto; /* Centre l'image horizontalement */
+  margin-right: auto;
+  display: block; /* Nécessaire pour appliquer les marges automatiques */
+  transition: 0.5s; /* Effet de transition doux pour le survol */
+}
+
+/* Effet de survol pour les images */
+.imgEv:hover {
+  transform: scale(1.05); /* Agrandit légèrement l'image au survol */
+  transition: 0.5s; /* Assure que la transition s'applique dans les deux sens */
+}
+
+/* Styles pour le titre des événements */
+.titre {
+  height: 5rem; /* Hauteur fixe pour uniformiser les titres */
+  margin-bottom: 1px; /* Réduit l'espace sous le titre */
+}
+
+/* Styles pour les titres des événements cliquables */
+.titleEven {
+  font-size: 2rem; /* Augmente la taille de la police pour une meilleure lisibilité */
+  text-decoration: none; /* Supprime le soulignement par défaut des liens */
+}
+
+/* Effet de survol pour les titres des événements */
+.titleEven:hover {
+  text-decoration: underline; /* Ajoute un soulignement au survol pour indiquer la cliquabilité */
+}
+
+/* Styles pour la date des événements */
+.dateEven {
+  padding-top: 2rem; /* Espacement au-dessus de la date */
+  padding-bottom: 4rem; /* Espacement sous la date pour séparer du contenu suivant */
+  width: 100%; /* Utilise toute la largeur disponible */
+  height: 50px; /* Hauteur fixe pour la date */
+}

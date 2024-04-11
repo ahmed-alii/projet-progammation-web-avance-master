@@ -1,0 +1,52 @@
+/* Styles pour le fond des cartes d'événement */
+.bob .backDiv {
+    background-color: black; /* Couleur de fond */
+    color: azure; /* Couleur du texte */
+    margin: 0 auto; /* Centre la carte */
+    width: 30rem; /* Largeur fixe de la carte */
+    height: 50rem; /* Hauteur fixe de la carte */
+    border: 1px solid #333; /* Bordure de la carte */
+}
+
+/* Styles pour les images des événements */
+.bob img {
+    width: 500px;
+    height: 500px;
+    transition: 0.3s; /* Transition douce pour l'effet de survol */
+    padding: 10px; /* Espacement autour de l'image */
+}
+
+/* Animation pour le survol de l'image */
+.bob img:hover {
+    transform: scale(1.03); /* L'image s'agrandit légèrement au survol */
+    cursor: pointer; /* Change le curseur en pointeur pour indiquer la possibilité de cliquer */
+}
+
+/* Styles pour les liens dans la description des événements */
+.divDescription a {
+    color: aliceblue; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-size: 2rem; /* Taille du texte des liens */
+}
+
+/* Effet de survol pour les liens dans la description */
+.divDescription a:hover {
+    text-decoration: underline; /* Souligne le texte au survol */
+}
+
+/* Styles pour les titres des événements */
+.titre {
+    height: 5rem; /* Hauteur du titre */
+    margin-bottom: 1px; /* Marge inférieure pour le titre */
+}
+
+/* Styles spécifiques pour les titres des événements cliquables */
+.titleEven {
+    font-size: 2rem; /* Taille de la police pour les titres */
+    text-decoration: none; /* Suppression du soulignement */
+}
+
+/* Effet de survol pour les titres des événements cliquables */
+.titleEven:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}

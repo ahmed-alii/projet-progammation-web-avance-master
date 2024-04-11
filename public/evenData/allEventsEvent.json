@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "image": "/MainEventImage/event/t/kcx.webp",
+      "width": 320,
+      "height": 419,
+      "title": "KCX KCORP VS THE WORLD",
+      "date": "Jeudi 8 Février 2024"
+    },
+    {
+      "id": 2,
+      "image": "/MainEventImage/event/t/elevenallstar.webp",
+      "width": 320,
+      "height":400,
+      "title": "ELEVEN ALL STARS",
+      "date": "Samedi 19 Novembre 2024"
+    },
+    {
+      "id": 3,
+      "image": "/MainEventImage/event/t/evenBox.webp",
+      "width": 320,
+      "height":480,
+      "title": "CANADA VS POLAND BOX",
+      "date": "Jeudi 8 Février 2024"
+    },
+    {
+      "id": 4,
+      "image": "/MainEventImage/event/t/superBall.webp",
+      "width": 320,
+      "height":443,
+      "title": "SUPERBOWL FINAL",
+      "date": "Samedi 19 Novembre 2024"
+    }
+  ]
+  

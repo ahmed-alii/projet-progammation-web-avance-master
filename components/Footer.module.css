@@ -1,0 +1,5 @@
+/* Styles du pied de page */
+.footer {
+    background-color: black; /* Définit la couleur de fond du pied de page */
+    color: azure; /* Définit la couleur du texte pour le pied de page */
+}

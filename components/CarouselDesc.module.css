@@ -1,0 +1,10 @@
+/* Définition des styles pour le carousel */
+
+/* Styles généraux du carousel */
+
+.carou{
+    max-width: 50rem;
+    max-height: 28rem;
+    overflow: hidden;
+    margin: 0 auto;
+}

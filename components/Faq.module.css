@@ -1,0 +1,9 @@
+/* Styles pour les petites tailles d'écran */
+@media (max-width: 374px) {
+    /* Styles spécifiques à la page FAQ */
+    .pageFaq {
+        min-width: 24rem; /* Assure que le contenu a une largeur minimale de 20rem, ce qui peut aider à préserver la lisibilité sur de petits écrans. */
+        height: 100rem; /* Définit une hauteur minimale très élevée (trois fois la hauteur de l'écran du viewport). Cela semble excessif pour la plupart des contenus et pourrait nécessiter un ajustement. */
+        text-align: justify; /* Justifie le texte pour un alignement uniforme sur les deux bords. Bien que cela puisse améliorer l'apparence du paragraphe, sur de petits écrans, cela peut parfois rendre la lecture difficile en raison de l'espacement irrégulier des mots. */
+    }
+}

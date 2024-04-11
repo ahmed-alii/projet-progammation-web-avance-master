@@ -1,0 +1,13 @@
+/* Définition des styles pour le composant DescriptionAlphaCenter */
+
+/* Styles pour le conteneur principal du composant */
+.bob button {
+  background-color: black; /* Couleur de fond des boutons dans .bob */
+  color: azure; /* Couleur du texte des boutons dans .bob */
+}
+
+/* Styles pour le bouton lors du survol */
+.bob button:hover {
+  background-color: rgb(74, 73, 73); /* Couleur de fond des boutons lors du survol */
+  color: azure; /* Couleur du texte des boutons lors du survol */
+}

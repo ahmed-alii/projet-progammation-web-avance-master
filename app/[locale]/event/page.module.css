@@ -1,0 +1,8 @@
+/* Styles pour le conteneur principal du composant Events */
+.all {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Couleur de fond du conteneur */
+    color: azure; /* Couleur du texte dans le conteneur */
+    padding-bottom: 0rem;
+}

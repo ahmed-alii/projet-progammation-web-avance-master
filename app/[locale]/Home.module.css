@@ -1,0 +1,5 @@
+/* Styles pour la classe "down" utilisée dans Home.jsx */
+.down {
+    background-color: black; /* Couleur de fond noire pour la section */
+    color: azure; /* Couleur du texte en azure pour un contraste élevé avec le fond noir */
+}

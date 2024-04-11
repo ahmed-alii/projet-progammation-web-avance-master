@@ -1,0 +1,18 @@
+[
+    {
+      "question": "Comment acheter des billets?",
+      "answer": "Vous pouvez acheter des billets directement sur notre site web dans la page events vous pouvez choisir un evenement puis prendre un ticket.",
+      "id": "one"
+    },
+    {
+      "question": "Quelles sont les mesures sanitaires en place?",
+      "answer": "Nous suivons les directives gouvernementales. Veuillez consulter la page de l'événement spécifique pour les mesures sanitaires les plus à jour.",
+      "id": "two"
+    },
+    {
+      "question": "Puis-je obtenir un remboursement si je ne peux pas assister?",
+      "answer": "Les remboursements sont possibles sous certaines conditions. Veuillez consulter notre politique de remboursement ou contactez le service client pour plus d'informations.",
+      "id": "three"
+    }
+]
+  

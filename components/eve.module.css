@@ -1,0 +1,8 @@
+/* Styles pour le conteneur principal des événements */
+.eventsMain {
+    background-color: black; /* Définit un fond noir pour le conteneur */
+    color: azure; /* Définit la couleur du texte à azure pour contraster avec le fond noir */
+    padding-bottom: 100%;
+    padding-top: 10%;
+}
+
