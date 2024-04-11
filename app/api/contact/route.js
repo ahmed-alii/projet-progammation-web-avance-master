@@ -27,34 +27,21 @@ const Contact = mongoose.models.Contact || mongoose.model('Contact', contactSche
 
 // Function to save contact form data
 async function saveContactFormData(name, email, message) {
-
     try {
         const newContact = new Contact({
             name, email, message,
         });
         const savedContact = await newContact.save();
-        console.log('Contact form data saved successfully:', savedContact);
-        return savedContact;
     } catch (error) {
         console.error('Error saving contact form data:', error);
-        throw error;
     }
 }
 
 // Handler function for the POST method
 async function POST(req, res) {
-    if (req.method === 'POST') {
-        const {name, email, message} = req.body;
-        saveContactFormData(name, email, message)
-            .then((savedContact) => {
-                return NextResponse.json({message: 'Data stored successfully', data: savedContact});
-            })
-            .catch((error) => {
-                return NextResponse.json({message: 'Error storing data', error});
-            });
-    } else {
-        return NextResponse.json({message: 'Method Not Allowed'});
-    }
+    const {name, email, message} = req.body;
+    saveContactFormData(name, email, message)
+    return NextResponse.json({message: 'Data stored successfully'});
 }
 
 // Export the handler function for the POST method
